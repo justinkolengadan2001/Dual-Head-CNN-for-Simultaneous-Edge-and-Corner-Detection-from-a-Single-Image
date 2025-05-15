@@ -31,14 +31,16 @@ This project implements a deep learning-based dual-head convolutional neural net
 - Plots and evaluation metrics provided in `/results`.
 
 ### Project Structure
-├── model/ # Model definitions for UNet and ResNet variants
-├── data/ # Preprocessed training patches
-├── utils/ # Loss functions, metrics, augmentation scripts
-├── results/ # Evaluation plots, predictions
-├── train.py # Training loop
-├── evaluate.py # Evaluation script
-├── requirements.txt # Dependencies
-└── README.md # Project description
+| Path              | Description                                     |
+|-------------------|-------------------------------------------------|
+| `model/`          | UNet and ResNet model definitions               |
+| `data/`           | Preprocessed training image patches             |
+| `utils/`          | Loss functions, metrics, and data augmentation  |
+| `results/`        | Evaluation plots and prediction outputs         |
+| `train.py`        | Training loop script                            |
+| `evaluate.py`     | Evaluation script for IoU and F1 metrics        |
+| `requirements.txt`| Python dependencies                             |
+| `README.md`       | Project overview and description                |
 
 ### Key Takeaways
 - Demonstrates learning from **sparse and synthetic labels**.
